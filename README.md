@@ -1,10 +1,13 @@
 # Diagramiser4J
 
-A tool that takes a Java class and formats it into a certain PlantUML class diagram representation (the most alike to standard UML one).
+A tool that takes a Java class and formats it into a string representing a class in PlantUML.
 
 ## Table of Contents
 
-- **ClassToPlantULM**: A singleton containing the _diagramise_ methods.
+- **IDiagramiser**: The methods any diagramiser should have.
+- **Diagramiser**: The abstract representation of a diagramiser. It's not compulsory, but heavily recommended, that every diagramiser inherits from this class.
+- **GraphicalUML**: The diagramiser that represents classes like it's done in graphical UML.
+- **PlantUMLFormat**: The diagramiser that represents classes like it's done in PlantUML (using class, abstract, interface, etc., instead of stereotypes).
 
 ## Features
 
