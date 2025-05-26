@@ -8,9 +8,6 @@
     <artifactId>Diagramiser4J</artifactId>
     <version>1.3.1</version>
 
-    <name>Diagramiser4J</name>
-    <url>https://github.com/kareiku/Diagramiser4J</url>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
