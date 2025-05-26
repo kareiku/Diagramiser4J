@@ -1,14 +1,11 @@
 package io.github.kareiku;
 
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
-
 import java.util.Arrays;
 import java.util.Objects;
 
 public class GraphicalUML extends Diagramiser {
     @Override
-    public @NotNull String diagramise(@NotNull Class<?> clazz, @Nullable String stereotype, @Nullable String alias) {
+    public String diagramise(Class<?> clazz, String stereotype, String alias) {
         StringBuilder sb = new StringBuilder();
 
         stereotype = Objects.isNull(stereotype) ? "" : String.format("<<%s>>\\n", stereotype);
